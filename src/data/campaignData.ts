@@ -1,0 +1,46 @@
+export interface CampaignData {
+  campaignName: string;
+  adSetName: string;
+  adName: string;
+  platform: string;
+  date: string;
+  reach: number;
+  impressions: number;
+  frequency: number;
+  resultType: string;
+  results: number;
+  costPerResult: number;
+  amountSpent: number;
+  startDate: string;
+  endDate: string;
+  cpm: number;
+  linkClicks: number;
+  cpc: number;
+  ctr: number;
+  leads: number;
+}
+
+export const rawCampaignData: CampaignData[] = [
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 04", platform: "facebook", date: "2025-09-27", reach: 3, impressions: 4, frequency: 1.33, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.05, startDate: "2025-09-22", endDate: "Contínuo", cpm: 12.5, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 03", platform: "instagram", date: "2025-09-27", reach: 60, impressions: 69, frequency: 1.15, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.44, startDate: "2025-09-22", endDate: "Contínuo", cpm: 6.38, linkClicks: 1, cpc: 0.44, ctr: 1.45, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 03", platform: "facebook", date: "2025-09-27", reach: 49, impressions: 51, frequency: 1.04, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.91, startDate: "2025-09-22", endDate: "Contínuo", cpm: 17.84, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 05", platform: "facebook", date: "2025-09-26", reach: 5, impressions: 5, frequency: 1, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.06, startDate: "2025-09-22", endDate: "Contínuo", cpm: 12, linkClicks: 1, cpc: 0.06, ctr: 20, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 05", platform: "instagram", date: "2025-09-26", reach: 5, impressions: 5, frequency: 1, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.06, startDate: "2025-09-22", endDate: "Contínuo", cpm: 12, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 04", platform: "instagram", date: "2025-09-26", reach: 2, impressions: 2, frequency: 1, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.00, startDate: "2025-09-22", endDate: "Contínuo", cpm: 0, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 04", platform: "facebook", date: "2025-09-26", reach: 23, impressions: 30, frequency: 1.30, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.45, startDate: "2025-09-22", endDate: "Contínuo", cpm: 15, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 03", platform: "facebook", date: "2025-09-26", reach: 309, impressions: 422, frequency: 1.37, resultType: "", results: 0, costPerResult: 0, amountSpent: 3.99, startDate: "2025-09-22", endDate: "Contínuo", cpm: 9.45, linkClicks: 5, cpc: 0.798, ctr: 1.18, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 03", platform: "instagram", date: "2025-09-26", reach: 353, impressions: 618, frequency: 1.75, resultType: "", results: 0, costPerResult: 0, amountSpent: 4.13, startDate: "2025-09-22", endDate: "Contínuo", cpm: 6.68, linkClicks: 1, cpc: 4.13, ctr: 0.16, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 04", platform: "instagram", date: "2025-09-25", reach: 40, impressions: 43, frequency: 1.08, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.42, startDate: "2025-09-22", endDate: "Contínuo", cpm: 9.77, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 05", platform: "instagram", date: "2025-09-25", reach: 19, impressions: 29, frequency: 1.53, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.15, startDate: "2025-09-22", endDate: "Contínuo", cpm: 5.17, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 05", platform: "facebook", date: "2025-09-25", reach: 27, impressions: 32, frequency: 1.19, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.17, startDate: "2025-09-22", endDate: "Contínuo", cpm: 5.31, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 04", platform: "facebook", date: "2025-09-25", reach: 184, impressions: 199, frequency: 1.08, resultType: "", results: 0, costPerResult: 0, amountSpent: 1.37, startDate: "2025-09-22", endDate: "Contínuo", cpm: 6.88, linkClicks: 1, cpc: 1.37, ctr: 0.50, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 03", platform: "instagram", date: "2025-09-25", reach: 271, impressions: 457, frequency: 1.69, resultType: "Conversas por mensagem iniciadas", results: 1, costPerResult: 2.96, amountSpent: 2.96, startDate: "2025-09-22", endDate: "Contínuo", cpm: 6.48, linkClicks: 5, cpc: 0.592, ctr: 1.09, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 03", platform: "facebook", date: "2025-09-25", reach: 192, impressions: 244, frequency: 1.27, resultType: "", results: 0, costPerResult: 0, amountSpent: 1.68, startDate: "2025-09-22", endDate: "Contínuo", cpm: 6.89, linkClicks: 2, cpc: 0.84, ctr: 0.82, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 02", platform: "instagram", date: "2025-09-25", reach: 1, impressions: 1, frequency: 1, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.00, startDate: "2025-09-22", endDate: "Contínuo", cpm: 0, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 01", platform: "facebook", date: "2025-09-25", reach: 154, impressions: 165, frequency: 1.07, resultType: "", results: 0, costPerResult: 0, amountSpent: 1.72, startDate: "2025-09-22", endDate: "Contínuo", cpm: 10.42, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 01", platform: "instagram", date: "2025-09-25", reach: 71, impressions: 82, frequency: 1.15, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.72, startDate: "2025-09-22", endDate: "Contínuo", cpm: 8.78, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 01", platform: "facebook", date: "2025-09-24", reach: 529, impressions: 694, frequency: 1.31, resultType: "Conversas por mensagem iniciadas", results: 1, costPerResult: 5.87, amountSpent: 5.87, startDate: "2025-09-22", endDate: "Contínuo", cpm: 8.46, linkClicks: 2, cpc: 2.935, ctr: 0.29, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 01", platform: "instagram", date: "2025-09-24", reach: 196, impressions: 270, frequency: 1.38, resultType: "Conversas por mensagem iniciadas", results: 1, costPerResult: 2.39, amountSpent: 2.39, startDate: "2025-09-22", endDate: "Contínuo", cpm: 8.85, linkClicks: 1, cpc: 2.39, ctr: 0.37, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 02", platform: "facebook", date: "2025-09-23", reach: 80, impressions: 100, frequency: 1.25, resultType: "Conversas por mensagem iniciadas", results: 2, costPerResult: 0.55, amountSpent: 1.09, startDate: "2025-09-22", endDate: "Contínuo", cpm: 10.9, linkClicks: 1, cpc: 1.09, ctr: 1, leads: 0 },
+  { campaignName: "[WHATSAPP] VOCÊ+ MAGRA 22/09/2025", adSetName: "MULHERES - MONTE SANTO E REGIÃO", adName: "CRIATIVO 02", platform: "instagram", date: "2025-09-23", reach: 36, impressions: 47, frequency: 1.31, resultType: "", results: 0, costPerResult: 0, amountSpent: 0.51, startDate: "2025-09-22", endDate: "Contínuo", cpm: 10.85, linkClicks: 0, cpc: 0, ctr: 0, leads: 0 },
+];
